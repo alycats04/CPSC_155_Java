@@ -42,10 +42,11 @@ public class Radio {
 	}
 	
 	public int getVol() {
-		return 0;
+		return 500;
 	}
 	
 	public void setVolume(int newVol) {
+		volume = newVol;
 		
 	}
 	
